@@ -39,6 +39,13 @@ internal enum Localized {
             internal static let text = Localized.tr("Localizable", "Home.Button.Title")
         }
     }
+    
+    internal enum HotelList {
+        
+        internal enum Header {
+            internal static let text = Localized.tr("Localizable", "HotelList.Header.TITLE")
+        }
+    }
 }
 
 extension Localized {

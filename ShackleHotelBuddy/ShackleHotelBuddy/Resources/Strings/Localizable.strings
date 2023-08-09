@@ -14,3 +14,6 @@
 "Home.SearchCriteria.CheckInDate.TITLE" = "Check-in date";
 "Home.SearchCriteria.CheckOutDate.TITLE" = "Check-out date";
 "Home.Button.Title" = "Search";
+
+// MARK: Hotel List
+"HotelList.Header.TITLE" = "Search results";
