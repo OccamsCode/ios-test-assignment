@@ -11,7 +11,10 @@ import SwiftUI
 struct ShackleHotelBuddyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Group {
+                HomeView()
+            }
+            .environment(\.appTheme, AppTheme())
         }
     }
 }
