@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  ShackleHotelBuddy
+
+  Created by Brian Munjoma on 09/08/2023.
+  
+*/
+
+
+// MARK: - Home View
+"Home.SearchCriteria.TITLE" = "Select guests, dates and time";
+"Home.SearchCriteria.Adults.TITLE" = "Adults";
+"Home.SearchCriteria.Children.TITLE" = "Children";
+"Home.SearchCriteria.CheckInDate.TITLE" = "Check-in date";
+"Home.SearchCriteria.CheckOutDate.TITLE" = "Check-out date";
+"Home.Button.Title" = "Search";
