@@ -20,7 +20,7 @@
 		BA99B4052A8391FA008F16E3 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA99B4042A8391FA008F16E3 /* Localizable.swift */; };
 		F9BF20DB2A6A896E006C0C49 /* ShackleHotelBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF20DA2A6A896E006C0C49 /* ShackleHotelBuddyApp.swift */; };
 		F9BF20DF2A6A8970006C0C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BF20DE2A6A8970006C0C49 /* Assets.xcassets */; };
-		F9BF20EC2A6A8971006C0C49 /* ShackleHotelBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF20EB2A6A8971006C0C49 /* ShackleHotelBuddyTests.swift */; };
+		F9BF20EC2A6A8971006C0C49 /* CountInputViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF20EB2A6A8971006C0C49 /* CountInputViewModelTests.swift */; };
 		F9BF20F62A6A8971006C0C49 /* ShackleHotelBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF20F52A6A8971006C0C49 /* ShackleHotelBuddyUITests.swift */; };
 		F9BF20F82A6A8971006C0C49 /* ShackleHotelBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF20F72A6A8971006C0C49 /* ShackleHotelBuddyUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -58,7 +58,7 @@
 		F9BF20DA2A6A896E006C0C49 /* ShackleHotelBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShackleHotelBuddyApp.swift; sourceTree = "<group>"; };
 		F9BF20DE2A6A8970006C0C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9BF20E72A6A8971006C0C49 /* ShackleHotelBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShackleHotelBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9BF20EB2A6A8971006C0C49 /* ShackleHotelBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShackleHotelBuddyTests.swift; sourceTree = "<group>"; };
+		F9BF20EB2A6A8971006C0C49 /* CountInputViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountInputViewModelTests.swift; sourceTree = "<group>"; };
 		F9BF20F12A6A8971006C0C49 /* ShackleHotelBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShackleHotelBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BF20F52A6A8971006C0C49 /* ShackleHotelBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShackleHotelBuddyUITests.swift; sourceTree = "<group>"; };
 		F9BF20F72A6A8971006C0C49 /* ShackleHotelBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShackleHotelBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -154,6 +154,14 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
+		BA99B4062A839AC6008F16E3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF20EB2A6A8971006C0C49 /* CountInputViewModelTests.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		F9BF20CE2A6A896E006C0C49 = {
 			isa = PBXGroup;
 			children = (
@@ -188,7 +196,7 @@
 		F9BF20EA2A6A8971006C0C49 /* ShackleHotelBuddyTests */ = {
 			isa = PBXGroup;
 			children = (
-				F9BF20EB2A6A8971006C0C49 /* ShackleHotelBuddyTests.swift */,
+				BA99B4062A839AC6008F16E3 /* Home */,
 			);
 			path = ShackleHotelBuddyTests;
 			sourceTree = "<group>";
@@ -350,7 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BF20EC2A6A8971006C0C49 /* ShackleHotelBuddyTests.swift in Sources */,
+				F9BF20EC2A6A8971006C0C49 /* CountInputViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
