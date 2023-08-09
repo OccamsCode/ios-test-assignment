@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  ShackleHotelBuddy
+//
+//  Created by Brian Munjoma on 09/08/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SECRET_KEY = 85d8bfaa56msha336d212fa62319p1535acjsnb18863e8bf0d

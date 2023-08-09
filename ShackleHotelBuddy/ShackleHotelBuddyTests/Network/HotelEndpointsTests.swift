@@ -47,6 +47,6 @@ final class HotelEndpointsTests: XCTestCase {
     
     func testHotelListBody() {
         let result = systemUnderTest.body
-        XCTAssertNil(result)
+        XCTAssertNotNil(result)
     }
 }

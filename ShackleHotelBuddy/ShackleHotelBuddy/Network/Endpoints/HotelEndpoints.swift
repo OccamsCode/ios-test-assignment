@@ -31,7 +31,7 @@ extension HotelsEndpoint: Endpoint {
     }
     
     var header: [String : String]? {
-        let rapidAPIKey = "85d8bfaa56msha336d212fa62319p1535acjsnb18863e8bf0d"
+        let rapidAPIKey = Bundle.main.infoDictionary?["SECRET_KEY"] as? String ?? "N/A"
         switch self {
         case .list, .detail:
             return [
@@ -45,7 +45,7 @@ extension HotelsEndpoint: Endpoint {
     var body: Encodable? {
             switch self {
             case .list(let searchCriteria):
-                return nil //HotelListBody(searchCriteria)
+                return HotelListBody(searchCriteria)
             case .detail:
                 return nil
             }

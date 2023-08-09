@@ -84,6 +84,8 @@
 		BA99B4292A83A66C008F16E3 /* HotelListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListHeaderView.swift; sourceTree = "<group>"; };
 		BA99B42C2A83A79E008F16E3 /* HotelListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListViewModel.swift; sourceTree = "<group>"; };
 		BA99B4302A83A85B008F16E3 /* HotelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListView.swift; sourceTree = "<group>"; };
+		BA99B4322A83AF93008F16E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA99B4332A83AFD0008F16E3 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		F9BF20D72A6A896E006C0C49 /* ShackleHotelBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShackleHotelBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BF20DA2A6A896E006C0C49 /* ShackleHotelBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShackleHotelBuddyApp.swift; sourceTree = "<group>"; };
 		F9BF20DE2A6A8970006C0C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 		F9BF20CE2A6A896E006C0C49 = {
 			isa = PBXGroup;
 			children = (
+				BA99B4332A83AFD0008F16E3 /* Config.xcconfig */,
 				F9BF20D92A6A896E006C0C49 /* ShackleHotelBuddy */,
 				F9BF20EA2A6A8971006C0C49 /* ShackleHotelBuddyTests */,
 				F9BF20F42A6A8971006C0C49 /* ShackleHotelBuddyUITests */,
@@ -316,6 +319,7 @@
 		F9BF20D92A6A896E006C0C49 /* ShackleHotelBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				BA99B4322A83AF93008F16E3 /* Info.plist */,
 				BA99B4072A839CA0008F16E3 /* Network */,
 				BA99B3EF2A838A61008F16E3 /* Resources */,
 				BA99B3E82A83898E008F16E3 /* Screens */,
@@ -659,6 +663,7 @@
 				DEVELOPMENT_TEAM = PK9QN6B6L5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShackleHotelBuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -691,6 +696,7 @@
 				DEVELOPMENT_TEAM = PK9QN6B6L5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShackleHotelBuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
