@@ -7,10 +7,42 @@
 
 import SwiftUI
 
-struct HomeView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+final class HomeViewModel: ObservableObject {
+    
+    @ObservedObject var searchCriteria = SearchCriteriaViewModel()
+    
+    enum Constants {
+        static let bottomPadding = 32.0
     }
+    
+}
+
+struct HomeView: View {
+
+        @ObservedObject var viewModel: HomeViewModel = HomeViewModel()
+        @Environment(\.appTheme) var appTheme
+        
+        var body: some View {
+            NavigationView {
+                ZStack {
+                    Image(appTheme.images.background)
+                        .resizable(resizingMode: .stretch)
+                        .edgesIgnoringSafeArea([.all])
+
+                    VStack {
+                        HomeHeaderView()
+                        Spacer()
+                    }
+                    
+                    VStack {
+                        Spacer()
+                        SearchCriteriaView(viewModel: viewModel.searchCriteria)
+                        Spacer()
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                }
+            }
+        }
 }
 
 struct HomeView_Previews: PreviewProvider {
