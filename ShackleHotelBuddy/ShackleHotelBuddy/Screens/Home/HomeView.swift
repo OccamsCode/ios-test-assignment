@@ -40,6 +40,21 @@ struct HomeView: View {
                         Spacer()
                     }
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    
+                    VStack {
+                        Spacer()
+                        NavigationLink(destination: HotelListView(viewModel: .init(searchCriteria: viewModel.searchCriteria))) {
+                            Text(Localized.Home.Button.text)
+                                .font(.title3)
+                                .frame(maxWidth: .infinity, maxHeight: appTheme.layout.callToActionSize)
+                                .foregroundColor(.white)
+                        }
+                        .tint(appTheme.colors.primary)
+                        .buttonStyle(.borderedProminent)
+                        .cornerRadius(appTheme.layout.secondaryCornerRadius)
+                        .padding(.horizontal, appTheme.layout.padding)
+                        .padding(.bottom)
+                    }
                 }
             }
         }
